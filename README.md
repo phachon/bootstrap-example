@@ -18,12 +18,9 @@ php -S 127.0.0.1:8000
 打开浏览器 http://127.0.0.1:8000
 
 ## 目录介绍
-- resource
-静态资源目录 css js images fonts
-- example
-一些 html 例子
-- example/layout  
-加载的 html 公共部分
+- resource 静态资源目录 css js images fonts
+- example 一些 html 例子
+- example/layout 加载的 html 公共部分
 
 ## 访问
 
