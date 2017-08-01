@@ -17,8 +17,9 @@
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar " style="width: 200px; padding-left: 30px;">
             <ul class="nav nav-sidebar"><a href="javascript:;"><strong>表单</strong></a>
-                <li><a href="/form/form1">表单1</a></li>
-                <li><a href="/form/form2">表单2</a></li>
+                <li><a href="/form/base">基本元素</a></li>
+                <li><a href="/form/group">输入框组</a></li>
+                <li><a href="/form/cascade">联级菜单</a></li>
             </ul>
             <ul class="nav nav-sidebar"><a href="javascript:;"><strong>表格</strong></a>
                 <li><a href="/table/table1">表格1</a></li>
