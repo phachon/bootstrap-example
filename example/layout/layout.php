@@ -16,7 +16,7 @@
 <body>
 <div class="container-fluid">
     <div class="row">
-        <div class="col-sm-3 col-md-2 sidebar " style="width: 200px; padding-left: 30px;">
+        <div class="col-sm-3 col-md-2 sidebar" style="width: 200px; padding-left: 30px;">
             <h5><strong><a href="/">首页</a></strong></h5>
             <hr>
             <ul class="nav nav-sidebar"><a href="javascript:;"><strong>表单</strong></a>
@@ -29,7 +29,7 @@
                 <li><a href="/table/table1">表格2</a></li>
             </ul>
         </div>
-        <div class="col-sm-9">
+        <div class="col-sm-10" style="margin-top: 5px;">
             <?php echo $content;?>
         </div>
     </div>

@@ -5,7 +5,11 @@
     <title>首页</title>
 </head>
 <body>
-<div id="content" style="padding-left: 40px;"></div>
+<div class="panel panel-default">
+    <div class="panel-body">
+        <div id="content" style="padding-left: 40px;"></div>
+    </div>
+</div>
 <script type="text/javascript">
     $.get("../README.md", function(response, status, xhr){
         $("#content").html(marked(response));

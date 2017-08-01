@@ -8,7 +8,9 @@
 - PHP ~ 5.5*
 
 ## 本地部署
-clone 或者下载 源代码解压  
+clone 或者下载 源代码解压
+地址：https://github.com/phachon/bootstrap-example.git
+
 进入目录 bootstrap-example 执行
 
 ```
