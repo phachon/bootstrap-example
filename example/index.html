@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>首页</title>
+</head>
+<body>
+<div id="content" style="padding-left: 40px;"></div>
+<script type="text/javascript">
+    $.get("../README.md", function(response, status, xhr){
+        $("#content").html(marked(response));
+    });
+</script>
+</body>
+</html>

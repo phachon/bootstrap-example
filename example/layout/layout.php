@@ -11,11 +11,14 @@
 
     <script src="/resource/js/plugins/jquery/jquery.js"></script>
     <script src="/resource/js/plugins/bootstrap/bootstrap.js"></script>
+    <script src="/resource/js/plugins/maked/marked.js"></script>
 </head>
 <body>
 <div class="container-fluid">
     <div class="row">
         <div class="col-sm-3 col-md-2 sidebar " style="width: 200px; padding-left: 30px;">
+            <h5><strong><a href="/">首页</a></strong></h5>
+            <hr>
             <ul class="nav nav-sidebar"><a href="javascript:;"><strong>表单</strong></a>
                 <li><a href="/form/base">基本元素</a></li>
                 <li><a href="/form/group">输入框组</a></li>

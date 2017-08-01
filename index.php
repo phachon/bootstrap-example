@@ -13,6 +13,7 @@ $uri = rawurldecode($uri);
 $split_uri = explode('?', $uri);
 $uri = array_shift($split_uri);
 
+$uri = ( $uri == '/' ) ? '/index' : $uri;
 $fileName = ROOTDIR . "example".$uri . ".html";
 
 if (!file_exists($fileName)) {
