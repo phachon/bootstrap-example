@@ -25,7 +25,7 @@
                 <li><a href="/form/cascade">联级菜单</a></li>
             </ul>
             <ul class="nav nav-sidebar"><a href="javascript:;"><strong>表格</strong></a>
-                <li><a href="/table/table1">表格1</a></li>
+                <li><a href="/table/base">表格1</a></li>
                 <li><a href="/table/table1">表格2</a></li>
             </ul>
         </div>
